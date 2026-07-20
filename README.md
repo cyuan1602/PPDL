@@ -27,9 +27,12 @@ Current research on millimeter-wave (mmWave) radar-based 3D human pose estimatio
 ![visualization](./assets/vispicture.png)
 
 ## Code
-Preparation:
-We evaluate our model on the public **MVDoppler-Pose** and **HuPR** datasets. 
-Please download the processed MVDoppler-Pose dataset from [Google Drive](<your_google_drive_link_here>) and extract it into the `data/MVDoppler-Pose` directory.
+Environment:
+- **Python**: 3.10.8
+- **PyTorch**: 1.13.1
+- **CUDA**: 11.6
+- **CuDNN**: 8
+- Environment can directly be imported through https://hub.docker.com/r/gogoho88/stanford_mmwave
 
 Installation:
 Our development and execution environments are fully encapsulated inside a Docker container.
