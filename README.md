@@ -28,7 +28,6 @@ Millimeter-wave (mmWave) radar offers a privacy-preserving and lighting-invarian
 
 ![visualization](./assets/vispicture.png)
 
-## PPDL
 
 ## Environment:
 - **Python**: 3.10.8
@@ -41,8 +40,8 @@ Millimeter-wave (mmWave) radar offers a privacy-preserving and lighting-invarian
 - Dowload the dataset and annotations from the following link **[MVDoppler-Pose](https://drive.google.com/drive/folders/11e_L9glHIoE5O8o1kukAA-M_2me60Vmy)** and **[HUPR](https://huggingface.co/datasets/nirajpkini/HuPR)** .
 
 ## Training the Model
-Specify your dataset folder and annotations file path inside /conf/config_keypoint_adjust.yaml
-Run the training script:
+- Specify your dataset folder and annotations file path inside /conf/config_keypoint_adjust.yaml
+- Run the training script:
 ```bash
 python main_multi_keypoint.py
 ```
@@ -52,7 +51,7 @@ python main_multi_keypoint.py
 - In [/conf/config_inference.yaml](./conf/config_inference.yaml), specify the path to your downloaded checkpoints and configurations using path_model and path_args.
 - Specify your preferred output save directory in path_save.
 - Set the test sequence name in test_episode.
-Run the inference script:
+- Run the inference script:
 ```bash
 python main_inference_keypoint.py
 ```
