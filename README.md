@@ -5,8 +5,8 @@
 ## Innovation Points
 
 <p align="center">
-  <img src="./assets/PPDHF.png" width="45%" /> 
-  <img src="./assets/DSTG.png" width="45%" />
+  <img src="./assets/figure_1.png" width="45%" /> 
+  
 </p>
 
 ## Introduction
@@ -15,12 +15,12 @@ Current research on millimeter-wave (mmWave) radar-based 3D human pose estimatio
 
 ### Framework
 
-![framework](./assets/PPDL.png)
+![framework](./assets/figure_2.png)
 
 
 ### Visualizations
 
-![visualization](./assets/vis.png)
+![visualization](./assets/vispicture.png)
 
 ## Code
 Preparation:
