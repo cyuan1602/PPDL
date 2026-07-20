@@ -26,19 +26,39 @@ Current research on millimeter-wave (mmWave) radar-based 3D human pose estimatio
 
 ![visualization](./assets/vispicture.png)
 
-## Code
-Environment:
+## PPDL
+
+## Environment:
 - **Python**: 3.10.8
 - **PyTorch**: 1.13.1
 - **CUDA**: 11.6
 - **CuDNN**: 8
 - The runtime environment can be directly imported through this **[Docker image](https://hub.docker.com/r/gogoho88/stanford_mmwave)**.
-Dataset
+
+## Dataset
 - Dowload the dataset and annotations from the following link **[MVDoppler-Pose](https://drive.google.com/drive/folders/11e_L9glHIoE5O8o1kukAA-M_2me60Vmy)** and **[HUPR](https://huggingface.co/datasets/nirajpkini/HuPR)** .
-Training the Model
+
+## Training the Model
 Specify your dataset folder and annotations file path inside /conf/config_keypoint_adjust.yaml
 Run the training script:
+```bash
 python main_multi_keypoint.py
+
+## Model Inference
+We provide pre-trained model parameters (Temp_best.pt) and corresponding settings (config.yaml) in this inference folder
+In /conf/config_inference.yaml, specify the path to your downloaded checkpoints and configurations using path_model and path_args.
+Specify your preferred output save directory in path_save.
+Set the test sequence name in test_episode.
+Run the inference script:
+```bash
+python main_inference_keypoint.py
+
+## Related Projects
+Our code is inspired by and built upon **[MVDoppler-Pose](https://github.com/gogoho88/MVDoppler-Pose)** and **[HuPR](https://github.com/robert80203/HuPR-A-Benchmark-for-Human-Pose-Estimation-Using-Millimeter-Wave-Radar)**.
+
+
+
+
 
 
 
