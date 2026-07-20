@@ -1,0 +1,7 @@
+# 注意：一定要加上 /workspace
+# path_model: "/workspace/MVDoppler-infernece/mmWave_ckp.pt" 
+# path_args: "/workspace/MVDoppler-infernece/mmWave_args.yaml"
+path_model: "/workspace/linux/Temp_best.pth" 
+path_args: "/workspace/linux/config.yaml"
+path_save: "/workspace/output_RGB"
+test_episode: '20220614104040'
