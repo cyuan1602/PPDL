@@ -3,7 +3,7 @@
 
 
 ## Innovation Points
-## PPDHF Module
+### PPDHF Module
 <p align="center">
   <img src="./assets/figure_3.png" width="100%" /> 
 </p>
@@ -15,16 +15,16 @@
 
 ## Introduction
 
-## Introduction
+### Introduction
 
 Millimeter-wave (mmWave) radar offers a privacy-preserving and lighting-invariant alternative to RGB sensors for human pose estimation (HPE) tasks. To this end, the collaborative integration of multimodal millimeter-wave signals has emerged as an increasingly promising direction. However, specular reflection inevitably causes limb signal loss, while cross-modal physical constraints are often neglected. These issues severely challenge effective multimodal fusion and dynamic skeleton-graph relation learning. To address these limitations, we propose Physical Prior Dynamic Learning (PPDL), a framework for radar-based human pose estimation. To enable effective multimodal fusion, we propose a Physical Prior-Driven Holographic Fusion (PPDHF) module, which constructs cross-modal pseudo-representations through physics-guided transformations and performs consistency fusion in the complex plane, thereby substantially enhancing the coupling and complementary utilization of multimodal information. However, feature representations within individual modalities may still amplify background clutter and non-human noise. We further propose a Dynamic Spatio-Temporal Graph (DSTG) module, which reshapes spatial structures by integrating a learnable dynamic matrix, positional bias, and edge bias, thereby weakening spurious multipath effects and alleviating geometric misalignment. Meanwhile, a spatio-temporal coherence mechanism is employed to suppress asynchronous noise and improve the continuity of inter-frame geometric representations. Extensive experiments on the MVDoppler-Pose and HuPR datasets demonstrate that PPDL outperforms state-of-the-art methods on both 2D and 3D human pose estimation tasks.
 
-## Framework
+### Framework
 
 ![framework](./assets/figure_2.png)
 
 
-## Visualizations
+### Visualizations
 
 ![visualization](./assets/vispicture.png)
 
