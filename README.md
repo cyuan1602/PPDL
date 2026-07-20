@@ -45,6 +45,7 @@ Specify your dataset folder and annotations file path inside /conf/config_keypoi
 Run the training script:
 ```bash
 python main_multi_keypoint.py
+```
 
 ## Model Inference
 We provide pre-trained model parameters (Temp_best.pt) and corresponding settings (config.yaml) in this inference folder
@@ -54,6 +55,7 @@ Set the test sequence name in test_episode.
 Run the inference script:
 ```bash
 python main_inference_keypoint.py
+```
 
 ## Related Projects
 Our code is inspired by and built upon **[MVDoppler-Pose](https://github.com/gogoho88/MVDoppler-Pose)** and **[HuPR](https://github.com/robert80203/HuPR-A-Benchmark-for-Human-Pose-Estimation-Using-Millimeter-Wave-Radar)**.
