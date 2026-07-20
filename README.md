@@ -5,7 +5,7 @@
 ## Innovation Points
 
 <p align="center">
-  <img src="./assets/figure_1.png" width="45%" /> 
+  <img src="./assets/figure_1.png" width="100%" /> 
   
 </p>
 
