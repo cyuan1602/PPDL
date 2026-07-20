@@ -48,10 +48,10 @@ python main_multi_keypoint.py
 ```
 
 ## Model Inference
--We provide pre-trained model parameters ([Temp_best.pt](./infernece)) and corresponding settings ([config.yaml](./inference)) in this inference folder
--In [/conf/config_inference.yaml](./conf/config_inference.yaml), specify the path to your downloaded checkpoints and configurations using path_model and path_args.
--Specify your preferred output save directory in path_save.
--Set the test sequence name in test_episode.
+- Download our pre-trained checkpoints [here](https://drive.google.com/drive/folders/1OsCCf15pCRin6-V9w71MioNoeJngWdiX). 
+- In [/conf/config_inference.yaml](./conf/config_inference.yaml), specify the path to your downloaded checkpoints and configurations using path_model and path_args.
+- Specify your preferred output save directory in path_save.
+- Set the test sequence name in test_episode.
 Run the inference script:
 ```bash
 python main_inference_keypoint.py
