@@ -32,11 +32,7 @@ Environment:
 - **PyTorch**: 1.13.1
 - **CUDA**: 11.6
 - **CuDNN**: 8
-- Environment can directly be imported through https://hub.docker.com/r/gogoho88/stanford_mmwave
+- The runtime environment can be directly imported through this **[Docker image](https://hub.docker.com/r/gogoho88/stanford_mmwave)**.
 
-Installation:
-Our development and execution environments are fully encapsulated inside a Docker container.
 
-1. Build the Docker image using the provided Dockerfile:
-```bash
-docker build -t ppdl:latest .
+
