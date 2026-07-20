@@ -33,6 +33,13 @@ Environment:
 - **CUDA**: 11.6
 - **CuDNN**: 8
 - The runtime environment can be directly imported through this **[Docker image](https://hub.docker.com/r/gogoho88/stanford_mmwave)**.
+Dataset
+- Dowload the dataset and annotations from the following link **[MVDoppler-Pose](https://drive.google.com/drive/folders/11e_L9glHIoE5O8o1kukAA-M_2me60Vmy)** and **[HUPR](https://huggingface.co/datasets/nirajpkini/HuPR)** .
+Training the Model
+Specify your dataset folder and annotations file path inside /conf/config_keypoint_adjust.yaml
+Run the training script:
+python main_multi_keypoint.py
+
 
 
 
